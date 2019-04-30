@@ -14,6 +14,9 @@ public class MapTiles {
 		}
 		solveNextProblem(quad);
 	}
+	
+	static void add() {
+	}
 
 	static void solveNextProblem(ArrayList<Integer> quadKey) {
 		int x = 0;
