@@ -19,7 +19,7 @@ public class MapTiles {
 	static void solveNextProblem(ArrayList<Integer> quadKey) {
 		int x = 0;
 		int y = 0;
-
+// Commetn
 		for (int n : quadKey) {
 			x *= 2;
 			y *= 2;
