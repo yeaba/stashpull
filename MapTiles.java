@@ -9,14 +9,13 @@ public class MapTiles {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int x = 10;
-		for (char c : q) {
-			quad.add(Integer.parseInt("" + c));
-		}
-		solveNextProblem(quad);
+		cahnge...
+
 	}
 
 	static void solveNextProblem(ArrayList<Integer> quadKey) {
 		int x = 0;
+int z = 10;
 		int y = 0;
 // Commetn
 		for (int n : quadKey) {
