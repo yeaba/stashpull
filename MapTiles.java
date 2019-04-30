@@ -6,28 +6,6 @@ import java.util.ArrayList;
 
 public class MapTiles {
 
-	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int x = 10;
-		cahnge...
-
-	}
-
-	static void solveNextProblem(ArrayList<Integer> quadKey) {
-		int x = 0;
-int z = 10;
-		int y = 0;
-// Commetn
-		for (int n : quadKey) {
-			x *= 2;
-			y *= 2;
-			x += n%2;
-			if (n > 1) {
-				y++;
-			}
-		}
-		
-		System.out.println("" + quadKey.size() + " " + x + " " + y);
-	}
+	
 
 }
