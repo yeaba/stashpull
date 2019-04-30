@@ -8,8 +8,7 @@ public class MapTiles {
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		char[] q = br.readLine().toCharArray();
-		ArrayList<Integer> quad = new ArrayList<>();
+		int x = 10;
 		for (char c : q) {
 			quad.add(Integer.parseInt("" + c));
 		}
